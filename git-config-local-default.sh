@@ -22,15 +22,17 @@ gitConfigLocal "branch.autosetuprebase always"
 
 gitConfigLocal "pull.rebase true"
 
+gitConfigLocal "rebase.keepEmpty true"
+
 gitConfigLocal "core.safecrlf warn"
 
 gitConfigLocal "core.quotepath false"
 
 gitConfigLocal "core.preloadindex true"
 
-gitConfigLocal "core.filemode false"
-
 gitConfigLocal "core.fscache true"
+
+gitConfigLocal "core.filemode false"
 
 gitConfigLocal "gc.auto 256"
 
