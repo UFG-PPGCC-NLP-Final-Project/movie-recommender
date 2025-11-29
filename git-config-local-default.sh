@@ -28,6 +28,8 @@ gitConfigLocal "core.quotepath false"
 
 gitConfigLocal "core.preloadindex true"
 
+gitConfigLocal "core.filemode false"
+
 gitConfigLocal "core.fscache true"
 
 gitConfigLocal "gc.auto 256"
