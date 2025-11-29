@@ -42,9 +42,21 @@ if [ $? -eq 0 ]; then
 	operatingSystem="${operatingSystem,,}"
 
 	if [ "$operatingSystem" = "msys" ]; then
+		gitConfigLocal "core.eol native"
+
+		gitConfigLocal "core.autocrlf true"
+
 		gitConfigLocal "core.longpaths true"
 
 		gitConfigLocal "core.ignorecase true"
+	else
+		gitConfigLocal "core.eol lf"
+
+		gitConfigLocal "core.autocrlf input"
+
+		gitConfigLocal "core.longpaths false"
+
+		gitConfigLocal "core.ignorecase false"
 	fi
 else
 	echo "$operatingSystem"
