@@ -1,5 +1,0 @@
-Site:
-https://www.kaggle.com/datasets/whenamancodes/popular-movies-datasets-58000-movies?resource=download
-
-Direct link:
-https://www.kaggle.com/datasets/whenamancodes/popular-movies-datasets-58000-movies/download?datasetVersionNumber=1
