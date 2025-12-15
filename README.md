@@ -16,6 +16,7 @@ cd movie-recommender && chmod +x getting-started.sh && ./getting-started.sh && c
 # Experiments
 
 ## Reproduction
+The experiments can be replicated by running the respective notebooks in Colab.
 
 ### BERT
 `./colab/bert_movie_recommender.ipynb`
@@ -24,6 +25,7 @@ cd movie-recommender && chmod +x getting-started.sh && ./getting-started.sh && c
 `./colab/sbert_movie_recommender.ipynb`
 
 ## Results
+The results can be accessed by opening the respective notebooks in Colab.
 
 ### BERT
 `colab/results/30-epochs/bert/1/bert_movie_recommender.ipynb`
