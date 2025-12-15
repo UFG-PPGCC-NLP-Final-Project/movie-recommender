@@ -28,10 +28,10 @@ The experiments can be replicated by running the respective notebooks in Colab.
 The results can be accessed by opening the respective notebooks in Colab.
 
 ### BERT
-`colab/results/30-epochs/bert/1/bert_movie_recommender.ipynb`
+`./colab/results/30-epochs/bert/1/bert_movie_recommender.ipynb`
 
 ### SBERT
-`colab/results/50-epochs/sbert/2/sbert_movie_recommender.ipynb`
+`./colab/results/50-epochs/sbert/2/sbert_movie_recommender.ipynb`
 
 
 # Authors
